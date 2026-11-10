@@ -1361,7 +1361,7 @@ var placeEv=makeSw($("evSw"),EV.map(function(e,i){return {t:e.t,i:i}}),function(
 $("useCalc").addEventListener("click",function(){$("fPeople").value=fmt(st.p);$("fDays").value=st.d;if(st.t)$("fType").value=st.t});
 /* Form delivery. On the live website, submissions go to info@trashcompany.in through Web3Forms:
    create a free access key for that address at web3forms.com and paste it below. */
-var FORM_KEY="";
+var FORM_KEY="c7f1eea1-6e9e-4e55-b455-721db2a753e2";
 $("brief").addEventListener("submit",function(e){
   e.preventDefault();var v=function(i){return $(i).value.trim()},err=$("fErr");
   if(!v("fName")){err.textContent="Add your name so we know who to reply to.";$("fName").focus();return}
